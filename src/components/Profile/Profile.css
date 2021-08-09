@@ -1,0 +1,181 @@
+.profile__page {
+    width: 100%;
+    /* margin-top: 50px; */
+    padding-top: 250px;
+    /* display: flex;
+    justify-content: center;
+    align-content: center;
+} */
+}
+
+.profilepage__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile__img {
+    margin: 10px;
+    transition: transform 550ms;
+}
+
+.profile__name {
+    margin: 10px;
+    transition: transform 550ms;
+}
+
+.profile__email {
+    margin: 10px;
+    transition: transform 550ms;
+}
+
+.profile__createdAt {
+    margin: 10px;
+    transition: transform 550ms;
+}
+
+.profile__signout {
+    margin: 10px;
+    transition: transform 550ms;
+}
+
+.profile__signout:hover {
+    transform: scale(1.25);
+}
+
+.profile__img:hover {
+    transform: scale(1.25);
+}
+
+.profile__name:hover {
+    transform: scale(1.5);
+}
+
+.profile__email:hover {
+    transform: scale(1.5);
+}
+
+.profile__createdAt:hover {
+    transform: scale(1.5);
+}
+
+.logo__link {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+}
+
+.profilenavbar {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    z-index: 999;
+    top: 0;
+    padding: 10px 0px;
+}
+
+.profilenav__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.profilenav__logo {
+    display: flex;
+    justify-content: center !important;
+    align-self: center !important;
+}
+
+.profilenav__logos {
+    display: flex;
+    justify-content: center !important;
+    align-self: center !important;
+}
+
+.profilenavlogin__companylogo {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.profilenav__companyname {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+/* .login__company {
+display: flex;
+justify-content: center;
+align-self: center;
+}
+
+.login__companylogo {
+width: 35px;
+height: 35px;
+cursor: pointer;
+} */
+
+.profilenav__logs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profilenav__facebooklogo {
+    color: white;
+    cursor: pointer;
+    margin: 0px 5px;
+}
+
+.profilenav__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3.5px;
+}
+
+.home__button:hover {
+    background-color: white;
+    color: black;
+}
+
+.home_buttonlink {
+    text-decoration: none;
+}
+
+.signout__profilebutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-radius: 3.5px;
+    border: .15px solid black;
+}
+
+.signout__profilebutton:hover {
+    background-color: black;
+    color: white;
+}

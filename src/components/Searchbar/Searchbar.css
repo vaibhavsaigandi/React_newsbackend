@@ -1,0 +1,27 @@
+.searchbar__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Searchbar__input {
+    width: 100%;
+    margin-right: 5px;
+    border-radius: 5px;
+    padding: 10px 5px;
+}
+
+.Searchbar__input:focus {
+    outline: none;
+}
+
+.Searchbar__icon {
+    margin-top: 2px !important;
+    color: white !important;
+    font-size: 22px !important;
+}
+
+.Searchbar__icon:hover {
+    /* background-color: white !important; */
+    color: rgba(202, 12, 12, 0.808) !important;
+}

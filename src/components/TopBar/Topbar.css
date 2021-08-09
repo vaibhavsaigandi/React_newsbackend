@@ -1,0 +1,122 @@
+.Topbar__container {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    z-index: 999;
+    top: 0;
+    padding: 10px 0px;
+    /* justify-content: space-around; */
+    /* display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #1877f2;
+    z-index: 999 */
+}
+
+.Topbar__logo {
+    padding-left: 20px;
+    flex: 2;
+}
+
+.login__company {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.login__companylogo {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.login__companyname {
+    font-size: 18px;
+    color: rgb(246, 246, 246);
+    cursor: pointer;
+}
+
+.avatar {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.Topbar__usericon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0px 5px; */
+}
+
+.menu {
+    margin-left: 10px;
+    color: white;
+}
+
+.signout__button {
+    width: auto;
+    height: 30px;
+    background-color: rgb(2, 2, 2) !important;
+    color: rgb(251, 251, 251) !important;
+    /* margin-left: 10px !important; */
+}
+
+.signout__button:hover {
+    color: black !important;
+    background-color: white !important;
+}
+
+.user__button {
+    width: auto;
+    height: 30px;
+    background-color: rgb(2, 2, 2) !important;
+    color: rgb(251, 251, 251) !important;
+    margin-right: 5px !important;
+}
+
+.user__button:hover {
+    color: black !important;
+    background-color: white !important;
+}
+
+.Topbar__searchbar {
+    flex: 3;
+}
+
+.Topbar__usericon {
+    flex: 2
+}
+
+.Topbar__select {
+    margin-right: 10px;
+    width: auto;
+}
+
+.Topbar__select:hover {
+    box-shadow: 0 0 10px 100px #fff inset;
+    /* background-color: black;
+    color: white; */
+}
+
+.Topbar__select:active {
+    border: none;
+    outline: none;
+}
+
+.Topbar__option:hover {
+    color: white;
+}
+
+.avatar {
+    margin-right: 5px;
+}
+
+.logo__link {
+    text-decoration: none;
+}

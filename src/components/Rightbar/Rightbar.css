@@ -1,0 +1,30 @@
+.Rightbar {
+    flex: 3;
+    margin-left: 20px;
+}
+
+.rightbar__container {
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 10px;
+}
+
+.rightbar__img {
+    height: 500px;
+    width: 95%;
+}
+
+.rightbar__imgprime {
+    height: 100%;
+    width: 55%;
+    align-content: center;
+}
+
+.rightbar__anchor {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
